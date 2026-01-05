@@ -102,6 +102,8 @@ function generateMockListing(platform: Platform, region: Region): Listing {
     ...POPULAR_BRANDS.luxury.slice(0, 3),
     ...POPULAR_BRANDS.contemporary,
     ...POPULAR_BRANDS.vintage,
+    ...POPULAR_BRANDS.athletic,
+    ...POPULAR_BRANDS.streetwear.slice(0, 4),
     ...POPULAR_BRANDS.highStreet,
   ]);
   const color = randomFromArray(COLORS);
