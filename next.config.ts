@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Ensure proper output for Vercel
+  output: undefined, // Let Vercel auto-detect
+
+  // Disable strict mode for faster dev
+  reactStrictMode: true,
 };
 
 export default nextConfig;
